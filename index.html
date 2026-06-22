@@ -778,7 +778,7 @@ footer {
 <div class="cursor-ring" id="ring"></div>
 
 <nav>
-  <div class="nav-logo">Sanskar.exe</div>
+  <a href="https://sanskar9067.github.io/portfolio/" class="nav-logo" style="text-decoration:none">Sanskar.exe</a>
   <ul class="nav-links">
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
@@ -811,8 +811,8 @@ footer {
 
     <div class="hero-btns">
       <a href="mailto:sanskar.sinha09a@gmail.com" class="btn-gta btn-primary-gta">Get in touch →</a>
-      <a href="https://github.com/username" class="btn-gta btn-secondary-gta">GitHub ↗</a>
-      <a href="https://linkedin.com/in/username" class="btn-gta btn-secondary-gta">LinkedIn ↗</a>
+      <a href="https://github.com/sanskar9067" class="btn-gta btn-secondary-gta">GitHub ↗</a>
+      <a href="https://linkedin.com/in/sanskar-sinha/" class="btn-gta btn-secondary-gta">LinkedIn ↗</a>
     </div>
   </div>
 
@@ -854,7 +854,7 @@ footer {
       <div class="card-number">01</div>
       <div class="card-icon">🧭</div>
       <div class="card-title">Career Copilot</div>
-      <div class="card-desc">AI career guidance platform with multi-agent roadmap generation, ATS resume scoring, and mock interview agents. Full LangGraph orchestration with RAG pipeline.</div>
+      <div class="card-desc">AI career guidance platform with a RAG pipeline for resume analysis, multi-agent LangGraph workflow for ATS scoring, roadmap generation, project recommendations, and an AI mock interview system storing sessions in Redis.</div>
       <div class="card-tags">
         <span class="tag ai">LangGraph</span>
         <span class="tag ai">OpenAI</span>
@@ -863,29 +863,18 @@ footer {
         <span class="tag">Next.js</span>
         <span class="tag infra">Qdrant</span>
         <span class="tag infra">Redis</span>
+        <span class="tag">PostgreSQL</span>
+      </div>
+      <div style="margin-top:1rem">
+        <a href="https://github.com/sanskar9067/career-copilot" style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--cyan);text-decoration:none;display:inline-flex;align-items:center;gap:5px;opacity:0.8;transition:opacity 0.2s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">⌥ View on GitHub ↗</a>
       </div>
     </div>
 
     <div class="project-card card-2 reveal reveal-delay-2">
       <div class="card-number">02</div>
-      <div class="card-icon">📄</div>
-      <div class="card-title">AI PDF Chat</div>
-      <div class="card-desc">Document Q&A system built on production-grade RAG — PDF ingestion, chunking, embedding generation, and semantic retrieval via Qdrant vector DB.</div>
-      <div class="card-tags">
-        <span class="tag ai">LangChain</span>
-        <span class="tag ai">OpenAI Embeddings</span>
-        <span class="tag">FastAPI</span>
-        <span class="tag infra">Qdrant</span>
-        <span class="tag">PostgreSQL</span>
-        <span class="tag infra">Docker</span>
-      </div>
-    </div>
-
-    <div class="project-card card-3 reveal reveal-delay-3">
-      <div class="card-number">03</div>
       <div class="card-icon">⚡</div>
       <div class="card-title">Taskflow</div>
-      <div class="card-desc">Multi-tenant SaaS Kanban with real-time board sync via WebSockets and RBAC. Redis caching slashed API response time from 360ms → 42ms.</div>
+      <div class="card-desc">Multi-tenant SaaS Kanban with real-time board sync via Socket.IO WebSocket rooms and RBAC (Owner, Manager, Member). Redis caching slashed API response time from 360ms → 42ms.</div>
       <div class="card-tags">
         <span class="tag">React</span>
         <span class="tag">Node.js</span>
@@ -893,6 +882,23 @@ footer {
         <span class="tag infra">Redis</span>
         <span class="tag infra">Socket.IO</span>
         <span class="tag perf">−88% latency</span>
+      </div>
+      <div style="margin-top:1rem">
+        <a href="https://github.com/sanskar9067/multi-tenant-SaaS-Backend" style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--cyan);text-decoration:none;display:inline-flex;align-items:center;gap:5px;opacity:0.8;transition:opacity 0.2s" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.8">⌥ View on GitHub ↗</a>
+      </div>
+    </div>
+
+    <div class="project-card card-3 reveal reveal-delay-3">
+      <div class="card-number">03</div>
+      <div class="card-icon">📝</div>
+      <div class="card-title">Research Publication</div>
+      <div class="card-desc">Published "Skin Cancer Detection Using Deep Learning Models" at ICICCT, JNU Delhi — June 2024. Applied deep learning classification models to medical imaging for early cancer detection.</div>
+      <div class="card-tags">
+        <span class="tag ai">Deep Learning</span>
+        <span class="tag ai">Python</span>
+        <span class="tag ai">CNN</span>
+        <span class="tag">Medical Imaging</span>
+        <span class="tag perf">Published</span>
       </div>
     </div>
 
@@ -919,7 +925,10 @@ footer {
           <div class="exp-period">Jul 2025 – Present</div>
         </div>
         <ul class="exp-list">
-          <li>Built an automated daily unit test service that drastically reduced time engineers spent identifying and resolving bugs in active product development.</li>
+          <li>Developed and maintained RESTful APIs using FastAPI with async request handling and modular architecture to support enterprise-scale business applications.</li>
+          <li>Built reusable React.js components and integrated frontend workflows with backend APIs, improving UX and reducing development effort through component-driven design.</li>
+          <li>Collaborated with cross-functional teams and international stakeholders to gather requirements, troubleshoot production issues, and deliver scalable software solutions.</li>
+          <li>Followed best practices including API versioning, code reviews, Git-based workflows, and structured debugging to ensure maintainable, reliable applications.</li>
         </ul>
       </div>
     </div>
@@ -937,8 +946,9 @@ footer {
           <div class="exp-period">May – Jul 2025</div>
         </div>
         <ul class="exp-list">
-          <li>Built an internal logistics cost calculator across multiple service providers with JWT auth, RBAC, and Nodemailer OTP/email verification.</li>
-          <li>Implemented Redis caching reducing API response time by 94%; engineered pricing algorithms, bidding module, and third-party API integrations.</li>
+          <li>Built an internal web app to calculate logistics costs across multiple service providers using React.js, Node.js, Express.js, MongoDB, and Redis.</li>
+          <li>Implemented secure auth with JWT, middleware-based API security, and RBAC; integrated Nodemailer for automated email notifications and OTP verification.</li>
+          <li>Reduced API response time by 94% via Redis caching; designed pricing algorithms, built a bidding module, and integrated multiple third-party APIs.</li>
         </ul>
       </div>
     </div>
@@ -989,8 +999,13 @@ footer {
         <span class="chip">Node.js</span>
         <span class="chip">Express.js</span>
         <span class="chip">REST APIs</span>
+        <span class="chip">WebSockets</span>
         <span class="chip">Socket.IO</span>
         <span class="chip">JWT / RBAC</span>
+        <span class="chip">Nodemailer</span>
+        <span class="chip">Cloudinary</span>
+        <span class="chip">Multer</span>
+        <span class="chip">Supabase</span>
       </div>
     </div>
 
@@ -1044,8 +1059,9 @@ footer {
   <div class="contact-links reveal reveal-delay-2">
     <a href="mailto:sanskar.sinha09a@gmail.com" class="contact-link">✉ sanskar.sinha09a@gmail.com</a>
     <a href="tel:+919773845415" class="contact-link">📞 +91 97738 45415</a>
-    <a href="https://linkedin.com/in/username" class="contact-link">in LinkedIn</a>
-    <a href="https://github.com/username" class="contact-link">⌥ GitHub</a>
+    <a href="https://linkedin.com/in/sanskar-sinha/" class="contact-link">in LinkedIn</a>
+    <a href="https://github.com/sanskar9067" class="contact-link">⌥ GitHub</a>
+    <a href="https://sanskar9067.github.io/portfolio/" class="contact-link">🌐 Portfolio</a>
   </div>
 </div>
 
